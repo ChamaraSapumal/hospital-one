@@ -30,7 +30,7 @@ const NavigationBar = () => {
           <Nav.Link href="#services">Services</Nav.Link>
           <Nav.Link href="#about">About Us</Nav.Link>
           <Nav.Link href="#testimonials">Testimonials</Nav.Link>
-          <Nav.Link href="#contact">Contact Usss</Nav.Link>
+          <Nav.Link href="#contact">Contact Us</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

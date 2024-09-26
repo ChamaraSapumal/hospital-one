@@ -18,6 +18,19 @@
   transform: translateY(-5px); /* Lift effect on hover */
 }
 
+.avatar-container {
+  display: flex;
+  justify-content: flex-start; /* Align avatar to the left */
+}
+
+.avatar {
+  width: 60px; /* Set width of avatar */
+  height: 60px; /* Set height of avatar */
+  border-radius: 50%; /* Make it fully round */
+  border: 3px solid white; /* White border around avatar */
+  margin-right: 15px; /* Space between avatar and testimonial text */
+}
+
 .blockquote {
   font-size: 1.2rem; /* Increase font size for readability */
   font-style: italic; /* Italicize text for emphasis */
