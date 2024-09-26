@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hospital-one/static/css/main.fe490804.css",
-    "main.js": "/hospital-one/static/js/main.d3b9dbb0.js",
+    "main.js": "/hospital-one/static/js/main.9c1c039b.js",
     "static/js/453.930f5ba2.chunk.js": "/hospital-one/static/js/453.930f5ba2.chunk.js",
     "static/media/about-background.jpg": "/hospital-one/static/media/about-background.52328c254fed18bf9f55.jpg",
     "static/media/hero-background.jpg": "/hospital-one/static/media/hero-background.e6b139c3f63050ec859b.jpg",
@@ -15,11 +15,11 @@
     "static/media/ravindu.jpg": "/hospital-one/static/media/ravindu.b82cb0df2c3ab6cffb5a.jpg",
     "index.html": "/hospital-one/index.html",
     "main.fe490804.css.map": "/hospital-one/static/css/main.fe490804.css.map",
-    "main.d3b9dbb0.js.map": "/hospital-one/static/js/main.d3b9dbb0.js.map",
+    "main.9c1c039b.js.map": "/hospital-one/static/js/main.9c1c039b.js.map",
     "453.930f5ba2.chunk.js.map": "/hospital-one/static/js/453.930f5ba2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe490804.css",
-    "static/js/main.d3b9dbb0.js"
+    "static/js/main.9c1c039b.js"
   ]
 }
