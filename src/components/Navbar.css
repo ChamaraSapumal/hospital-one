@@ -1,0 +1,68 @@
+/* src/components/Navbar.css */
+.custom-navbar {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* Semi-transparent white background */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  padding: 15px 30px; /* Padding for navbar */
+}
+
+.custom-navbar.scrolled {
+  background-color: #ffffff; /* Solid white background when scrolled */
+}
+
+.custom-navbar .navbar-brand {
+  color: #333333; /* Dark gray text for brand */
+}
+
+.custom-navbar .nav-link {
+  color: #555555; /* Medium gray text for links */
+  margin-right: 20px; /* Space between links */
+  transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #111111; /* Darker gray on hover */
+  transform: scale(1.05); /* Slightly enlarge link on hover */
+}
+
+.custom-navbar .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1); /* Light border for toggler */
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-color: #fafafa; /* Medium gray icon for toggler */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .custom-navbar .nav-link {
+    margin-right: 0; /* Remove margin on mobile */
+    text-align: center; /* Center align links on mobile */
+    margin-bottom: 10px; /* Space below each link on mobile */
+    display: block; /* Stack links vertically on mobile */
+    width: calc(
+      100% - 40px
+    ); /* Full width links on mobile with padding adjustment */
+    padding: 10px; /* Padding for links on mobile */
+    border-radius: 10px; /* Rounded edges for mobile links */
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.9
+    ); /* Slightly transparent background for links on mobile */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  .custom-navbar .nav-link:hover {
+    background-color: rgb(
+      244,
+      241,
+      241
+    ); /* Light gray background on hover for mobile links */
+  }
+}
