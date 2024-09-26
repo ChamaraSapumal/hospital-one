@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hospital-one/static/css/main.fe490804.css",
+    "main.js": "/hospital-one/static/js/main.d3b9dbb0.js",
+    "static/js/453.930f5ba2.chunk.js": "/hospital-one/static/js/453.930f5ba2.chunk.js",
+    "static/media/about-background.jpg": "/hospital-one/static/media/about-background.52328c254fed18bf9f55.jpg",
+    "static/media/hero-background.jpg": "/hospital-one/static/media/hero-background.e6b139c3f63050ec859b.jpg",
+    "static/media/service3.jpg": "/hospital-one/static/media/service3.4ea49cdf6e6a3f08de41.jpg",
+    "static/media/service2.jpg": "/hospital-one/static/media/service2.d209f0816b30f0b349b5.jpg",
+    "static/media/service1.jpg": "/hospital-one/static/media/service1.635d3d786221b9165949.jpg",
+    "static/media/testimonials-background.jpg": "/hospital-one/static/media/testimonials-background.31117eccfd07e0615f76.jpg",
+    "static/media/contact-background.jpg": "/hospital-one/static/media/contact-background.71f951e17a4d3c008fc7.jpg",
+    "static/media/sapumal.png": "/hospital-one/static/media/sapumal.6a285241559ecfd56c8e.png",
+    "static/media/mishtika.png": "/hospital-one/static/media/mishtika.6ac05471388718959d3c.png",
+    "static/media/ravindu.jpg": "/hospital-one/static/media/ravindu.b82cb0df2c3ab6cffb5a.jpg",
+    "index.html": "/hospital-one/index.html",
+    "main.fe490804.css.map": "/hospital-one/static/css/main.fe490804.css.map",
+    "main.d3b9dbb0.js.map": "/hospital-one/static/js/main.d3b9dbb0.js.map",
+    "453.930f5ba2.chunk.js.map": "/hospital-one/static/js/453.930f5ba2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe490804.css",
+    "static/js/main.d3b9dbb0.js"
+  ]
+}
