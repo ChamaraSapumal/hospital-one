@@ -1,0 +1,21 @@
+/* src/components/Testimonials.css */
+.testimonial-card {
+  border: none; /* Remove default border */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px); /* Lift up effect on hover */
+}
+
+.blockquote {
+  font-size: 1.2rem; /* Increase font size */
+  font-style: italic; /* Italicize text */
+}
+
+.blockquote-footer {
+  margin-top: 10px; /* Space above the citation */
+  font-weight: bold; /* Make citation bold */
+}

@@ -1,0 +1,34 @@
+/* src/components/Contact.css */
+.contact-section {
+  background-image: url("../assets/contact-background.jpg"); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0; /* Add padding for top and bottom */
+  color: white; /* Change text color for better contrast */
+}
+
+.contact-section h2 {
+  font-size: 2.5rem; /* Larger font size for headings */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+.contact-section .form-control {
+  border-radius: 25px; /* Rounded corners for input fields */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Light background for input fields */
+  border: none; /* Remove default border */
+}
+
+.contact-section .form-control:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus effect */
+}
+
+.btn-submit {
+  border-radius: 25px; /* Rounded corners for button */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 1.1rem; /* Increase font size for button */
+}

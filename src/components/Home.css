@@ -1,0 +1,36 @@
+/* src/components/Home.css */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background-image: url("../assets/hero-background.jpg"); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Dark overlay for better text visibility */
+}
+
+.hero-content {
+  position: relative; /* Position relative to overlay */
+  z-index: 1; /* Ensure content is above the overlay */
+}
+
+.btn {
+  margin-top: 20px; /* Space above button */
+}
