@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hospital-one/static/css/main.fe490804.css",
-    "main.js": "/hospital-one/static/js/main.9c1c039b.js",
-    "static/js/453.930f5ba2.chunk.js": "/hospital-one/static/js/453.930f5ba2.chunk.js",
+    "main.css": "/hospital-one/static/css/main.ee1f68bd.css",
+    "main.js": "/hospital-one/static/js/main.2ecb2ccd.js",
+    "static/js/453.4251eb11.chunk.js": "/hospital-one/static/js/453.4251eb11.chunk.js",
     "static/media/about-background.jpg": "/hospital-one/static/media/about-background.52328c254fed18bf9f55.jpg",
     "static/media/hero-background.jpg": "/hospital-one/static/media/hero-background.e6b139c3f63050ec859b.jpg",
     "static/media/service3.jpg": "/hospital-one/static/media/service3.4ea49cdf6e6a3f08de41.jpg",
@@ -14,12 +14,12 @@
     "static/media/mishtika.png": "/hospital-one/static/media/mishtika.6ac05471388718959d3c.png",
     "static/media/ravindu.jpg": "/hospital-one/static/media/ravindu.b82cb0df2c3ab6cffb5a.jpg",
     "index.html": "/hospital-one/index.html",
-    "main.fe490804.css.map": "/hospital-one/static/css/main.fe490804.css.map",
-    "main.9c1c039b.js.map": "/hospital-one/static/js/main.9c1c039b.js.map",
-    "453.930f5ba2.chunk.js.map": "/hospital-one/static/js/453.930f5ba2.chunk.js.map"
+    "main.ee1f68bd.css.map": "/hospital-one/static/css/main.ee1f68bd.css.map",
+    "main.2ecb2ccd.js.map": "/hospital-one/static/js/main.2ecb2ccd.js.map",
+    "453.4251eb11.chunk.js.map": "/hospital-one/static/js/453.4251eb11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe490804.css",
-    "static/js/main.9c1c039b.js"
+    "static/css/main.ee1f68bd.css",
+    "static/js/main.2ecb2ccd.js"
   ]
 }
