@@ -14,12 +14,40 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate asset loading with a timeout
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 3000); // Adjust time as needed
+    const loadAssets = async () => {
+      // Simulate asset loading with a timeout
+      const timer = new Promise((resolve) => setTimeout(resolve, 3000)); // Simulate loading time
+      await timer;
 
-    return () => clearTimeout(timer);
+      // Preload images or other assets here if needed
+      const images = [
+        "../assets/hero-background.jpg",
+        "../assets/service1.jpg",
+        "../assets/service2.jpg",
+        "../assets/service3.jpg",
+        "../assets/about-background.jpg",
+        "../assets/testimonials-background.jpg",
+        "../assets/mishtika.png",
+        "../assets/ravindu.jpg",
+        "../assets/sapumal.png",
+        "../assets/contact-background.jpg",
+      ];
+
+      const preloadImages = images.map(
+        (src) =>
+          new Promise((resolve) => {
+            const img = new Image();
+            img.src = src;
+            img.onload = resolve;
+            img.onerror = resolve; // Resolve even on error to avoid blocking
+          })
+      );
+
+      await Promise.all(preloadImages); // Wait for all images to load
+      setLoading(false); // Set loading to false after assets are loaded
+    };
+
+    loadAssets();
   }, []);
 
   return (

@@ -17,7 +17,7 @@ const LoadingScreen = () => {
   return (
     <div className="loading-screen">
       <Lottie options={defaultOptions} height={400} width={400} />
-      <cite>Loading your path to wellness... Thank you for your patience!</cite>
+      {/* <cite>Loading your path to wellness... Thank you for your patience!</cite> */}
     </div>
   );
 };
